@@ -40,6 +40,7 @@ header nav {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 2000;
 }
 .head-nav {
     display: flex;
@@ -60,10 +61,11 @@ header nav {
     border: 2px solid black;
     padding: 0.5rem 0.6rem 0.5rem 2.5rem;
     border-radius: 8px;
+    font-size: 1.25rem;
 }
 .search-bar a {
     position: absolute;
-    transform: translateY(50%);
+    transform: translateY(30%);
     padding: 0 0.3rem 0 0.6rem;
     border-right: 2px solid #2c3e50;
 }
@@ -107,8 +109,7 @@ header nav {
 }
 image img{
     position: absolute;
-    height: 95%;
-    right: 10rem;
+    right: 200px;
     bottom: 0;
-    
+    height: 95%;    
 }
