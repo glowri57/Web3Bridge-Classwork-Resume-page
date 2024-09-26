@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", "sans-serif";
+    color: #2c3e50;
+}
+a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    cursor: pointer;
+}
+a:hover {
+    color: black;
+}
+ul {
+    list-style: none;
+}
+header {
+    height: 100vh;
+    width: 100%;
+    background: url("background.png") no-repeat;
+    background-position: center;
+    margin: 1.25rem auto 1.25rem auto;
+}
+.logo {
+    width: 8rem;
+    height: 8rem;    
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.head-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    gap: 1em;
+    margin-top: 2.5rem;
+}
+.search-bar {
+    margin-top: 2.5rem;
+    margin-right: 8rem;   
+}
+.search-bar input[type="text"] {
+    color: #2c3e50;
+    outline: none;
+    border: 2px solid black;
+    padding: 0.5rem 0.6rem 0.5rem 2.5rem;
+    border-radius: 8px;
+}
+.search-bar a {
+    position: absolute;
+    transform: translateY(50%);
+    padding: 0 0.3rem 0 0.6rem;
+    border-right: 2px solid #2c3e50;
+}
+.text-content {
+    position: absolute;
+    top: 36%;
+    left: 10%
+}
+.intro {
+    font-size: 1.7rem;
+}
+.name {
+    font-size: 4.7rem;
+}
+.job {
+    font-size: 2.5rem;
+    display: flex;
+}
+.job .moving-text {
+    color: #1de2d1;
+    margin-left: 0.6rem;
+}
+
+/* buttons */
+
+.button {
+    margin: 1.25rem 0 0 3rem;
+}
+.content button {
+    color: white;
+    margin: 0 0.6rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #2afadf 10%, #c346c2 100%);
+    border-style: none;
+    transition: all 0.3s ease;
+}
+.content button:hover {
+    transform: scale(0.98);
+}
+image img{
+    position: absolute;
+    height: 95%;
+    right: 10rem;
+    bottom: 0;
+    
+}
